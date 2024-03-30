@@ -18,7 +18,7 @@
 
 body{
     color: var(--text-color);
-    background: url(assets/GN_D_Background.png);
+    background: url(GN_D_Background.png);
     background-size: cover; /* Face ca imaginea să acopere complet fundalul */
     width: 100%; /* Lățimea fundalului */
     height: 100vh;
