@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --bg-color: #0f151a;
+    --text-color: #fff;
+    --main-color: #f53fa1;
+    --other-color: #00ff00;
+    --nav-color: #00ecff;
+    --h1-font: 2.3rem;
+}
+
+body{
+    color: var(--text-color);
+    background: url(assets/GN_D_Background.png);
+    background-size: cover; /* Face ca imaginea să acopere complet fundalul */
+    width: 100%; /* Lățimea fundalului */
+    height: 100vh;
+    color: rgba(202, 19, 19, 0.5);
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: transparent;
+    transition: all ease .55s;
+}
+
+.logo{
+    width: 100%;
+    height: auto;
+}
+
+.download{
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    height: 440px;
+    width: 440px;
+    background: transparent;
+    border: 2px solid rgba(202, 19, 19, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn,
+button{
+    display: inline-block;
+    padding: 15px 22px;
+    color: #fff;
+    background: #4c1414;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    transition: all ease .55s;
+}
+
+.btn:hover{
+    border: 1px solid #4c1414;
+    background: transparent;
+    color: gray;
+}
+
+.download-text span{
+    text-decoration: underline;
+}
+
+.main-btn button h1{
+    text-decoration: underline;
+}
+
+.main-btn button p{
+    color: #2b0000;
+}
